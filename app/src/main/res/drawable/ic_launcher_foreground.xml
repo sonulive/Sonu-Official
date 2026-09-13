@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central Aura Pulse Glow -->
+    <path
+        android:pathData="M54,54m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="36"
+                android:endX="72"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#3300F5D4" android:offset="0.0" />
+                <item android:color="#337B61FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Resonance Wave Bars (Harmonic Frequency Curve, centered in 66dp safe zone) -->
+    <!-- Bar 1 (Left Outer) -->
+    <path
+        android:pathData="M31,46 L35,46 A2,2 0 0 1 37,48 L37,60 A2,2 0 0 1 35,62 L31,62 A2,2 0 0 1 29,60 L29,48 A2,2 0 0 1 31,46 Z"
+        android:fillColor="#00F5D4" />
+
+    <!-- Bar 2 (Mid Left) -->
+    <path
+        android:pathData="M40,39 L44,39 A2,2 0 0 1 46,41 L46,67 A2,2 0 0 1 44,69 L40,69 A2,2 0 0 1 38,67 L38,41 A2,2 0 0 1 40,39 Z"
+        android:fillColor="#38E1FF" />
+
+    <!-- Bar 3 (Center High Frequency Bar) -->
+    <path
+        android:pathData="M51,32 L57,32 A3,3 0 0 1 60,35 L60,73 A3,3 0 0 1 57,76 L51,76 A3,3 0 0 1 48,73 L48,35 A3,3 0 0 1 51,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="32"
+                android:endX="60"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#A78BFA" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bar 4 (Mid Right) -->
+    <path
+        android:pathData="M64,39 L68,39 A2,2 0 0 1 70,41 L70,67 A2,2 0 0 1 68,69 L64,69 A2,2 0 0 1 62,67 L62,41 A2,2 0 0 1 64,39 Z"
+        android:fillColor="#8B5CF6" />
+
+    <!-- Bar 5 (Right Outer) -->
+    <path
+        android:pathData="M73,46 L77,46 A2,2 0 0 1 79,48 L79,60 A2,2 0 0 1 77,62 L73,62 A2,2 0 0 1 71,60 L71,48 A2,2 0 0 1 73,46 Z"
+        android:fillColor="#EC4899" />
+
+    <!-- Synced Energy Dot Nodes -->
+    <path
+        android:pathData="M54,26m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#00F5D4" />
+    <path
+        android:pathData="M54,82m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#EC4899" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Wavelength",
+  "description": "A 2026 perspective resonance app for Gen-Z to explore nuanced daily dilemmas, discover intellectual harmony, and sync with friends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
